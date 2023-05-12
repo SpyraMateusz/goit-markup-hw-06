@@ -424,6 +424,30 @@
               </li>
       </ul>
   </div>
+  
+  <form class="footer__item footer-form" name="newsletter_email" action="/singnup" method="post" autocomplete="off" target="_self" validate>
+    <label class="footer__label" for="email" >ZAPISZ SIĘ DO NEWSLETTERA
+    </label>
+    <div class="footer-form__grid">
+        <input  
+        class="footer-form__input" 
+        type="email"
+        id="email" 
+        name="newsletter-user-email" 
+        placeholder="E-mail, example@mail.com" 
+        />
+        <button class="button footer-btn" type="submit">
+            <div class="footer-btn__grid">
+                <span class="footer-btn__text">
+                Zapisz się
+                </span>
+                <svg class="footer-btn__icon" width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-icon-send"/>
+                </svg>
+            </div>
+        </button>
+    </label>
+            </div>  
 </div>
 </footer>
 <script src="./js/modal.js">
