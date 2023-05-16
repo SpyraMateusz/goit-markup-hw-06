@@ -30,7 +30,7 @@ body {
   flex-direction: inherit;
 }
 span {
-  color: var(--secondary-color);
+  color: #ffffff;
 }
 .navigation-logo {
   font-family: var(--secondary-font);
@@ -88,6 +88,9 @@ span {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--fourth-color);
+}
+.web {
+  color: var(--secondary-color);
 }
 .navigation-logo {
   color: var(--main-color);
