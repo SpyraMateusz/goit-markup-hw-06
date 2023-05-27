@@ -1209,9 +1209,10 @@ img {
 .checkbox__label {
   display: inline-block;
   font-size: 14px;
-  line-height: calc(24 / 14) px;
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   text-align: left;
+  color: #757575;
 }
 .checkbox__link {
   color: var(--secondary-color);

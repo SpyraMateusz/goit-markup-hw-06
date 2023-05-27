@@ -67,10 +67,9 @@
       </div>
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <form class="form" role="group" aria-labelledby="order-form">
+          <form class="form" role="method" aria-labelledby="order-form">
             <h2 class="form__header" id="order-form__header">Zostaw swoje dane w formularzu poniżej
             </h2>                          
-
             <label class="form__label" for="name">
                 Imię<br>
             </label>
@@ -101,10 +100,9 @@
                 </div>
                 <input 
                 class="form__input" 
-                type="phone" 
+                type="tel" 
                 id="phone"
-                name="user-phone" 
-                maxlength="20"
+                name="user-phone"                
                 />
             </div>
             <label class="form__label" for="email">
@@ -135,7 +133,6 @@
                 maxlength="500"
                 placeholder="Wprowadź tekst"
                 ></textarea>
-        
         <!-- checkbox -->
             <label for="checkbox" class="form__checkbox checkbox">
                 <input 
@@ -147,7 +144,7 @@
                 required
                 />
                 <span class="checkmark"></span>
-                <div class="checkbox__label">Oświadczam iż akceptuję
+                <span class="checkbox__label">Oświadczam iż akceptuję
                     <a class="link checkbox__link" href="https://www.google.pl/" target="_blank">
                     Regulamin    
                     </a>
@@ -155,12 +152,10 @@
                     <a class="link checkbox__link" href="https://www.google.pl/" target="_blank">
                     Politykę Prywatności.
                     </a>
-                </div>
-                
+                </span>  
             </label>
             <button class="button form__btn-submit" type="submit">Wyślij</button>
-        </form>
-        
+        </form>  
             <button data-modal-close class="modal_icon-close">
                 <svg class="close" width="11" height="11">
                     <use href="./images/symbol-defs.svg#icon-close-2"></use>
@@ -248,9 +243,9 @@
         </div>
     </section> 
       <div class="gap-20-px">
-      <section class="align-items-center">
+      <div class="align-items-center">
         <h3 class="part-of-the-page">Czym sie zajmujemy</h3>
-      <div>
+      </div>
         <ul class="presentation">
           <li class="relative">
             <img
@@ -287,7 +282,6 @@
           </li>
         </ul>
         </div>
-      </section>
       <section class="main-team">
         <div class="container-main-team">
           <h2 class="main-team-title">Nasz zespół</h2>
@@ -470,8 +464,7 @@
       <div class="container footer">
           <div class="footer__item">
               <div class="logo">
-                <a class="navigation-logo-footer" href="./index.html"> <span class="web">Web</span>Studio</a>
-                  </a>        
+                <a class="navigation-logo-footer" href="./index.html"> <span class="web">Web</span>Studio</a>      
               </div>
               <address class="address__box">
                   <p> m. Warszawa, Aleje Jerozolimskie 21 </p>
@@ -538,10 +531,8 @@
                     <use href="./images/symbol-defs.svg#icon-icon-send"/>
                 </svg>
                 </div>
-            </div>
         </button>
             </div>  
-</div>
 </footer>
 <script src="./js/modal.js">
 </script>
