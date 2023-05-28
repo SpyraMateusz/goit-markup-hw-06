@@ -203,7 +203,6 @@ h1 {
   background-color: var(--secondary-color);
   color: #ffffff;
   cursor: pointer;
-  transition-property: color, background-color, box-shadow transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -273,7 +272,6 @@ h1 {
   text-align: center;
   font-size: 14px;
   font-weight: 700;
-  line-height: calc(16 / 14) px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 1);
   background: linear-gradient(0deg, var(--background-svg), 0%, var(--background-svg-second, 50%));
@@ -432,7 +430,6 @@ img {
 .article__copy {
   height: 75px;
   font-size: 14px;
-  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   text-align: left;
   color: rgb(117, 117, 117);
@@ -579,7 +576,6 @@ img {
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   font-size: 16px;
-  line-height: calc(20 / 16) px;
   letter-spacing: 0.03em;
   text-align: left;
   color: rgba(255, 255, 255, 0.6);
@@ -645,7 +641,6 @@ img {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14) px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
@@ -843,7 +838,6 @@ img {
   justify-content: space-between;
   font-size: 14px;
   font-weight: 500;
-  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
 .menu__logo {
@@ -857,7 +851,6 @@ img {
   flex: 1;
   font-size: 14px;
   font-weight: 500;
-  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
 .menu__nav-items {
@@ -869,7 +862,7 @@ img {
 .menu__nav-item-main {
   text-decoration: none;
   cursor: pointer;
-  color: (var(--secondary-color));
+  color: var(--secondary-color);
 }
 .menu__nav-item {
   text-decoration: none;
@@ -1074,14 +1067,12 @@ img {
   display: block;
   font-size: 20px;
   font-weight: 700;
-  line-height: (23/20) px;
   letter-spacing: 0.03em;
   text-align: center;
   color: rgb(33, 33, 33, 1);
 }
 .form__label {
   font-size: 12px;
-  line-height: calc(14 / 12) px;
   letter-spacing: 0.01em;
   text-align: left;
   color: rgb(117, 117, 117);
@@ -1150,7 +1141,6 @@ img {
   padding: 12px 16px;
   margin-top: 4px;
   font-size: 12px;
-  line-height: (14/12) px;
   letter-spacing: 0.01em;
   text-align: start;
   border-radius: 4px;
@@ -1163,7 +1153,6 @@ img {
 }
 .form__textarea::placeholder {
   font-size: 12px;
-  line-height: (14/12) px;
   letter-spacing: 0.01em;
   text-align: start;
   color: rgba(117, 117, 117, 0.5);
@@ -1209,7 +1198,6 @@ img {
 .checkbox__label {
   display: inline-block;
   font-size: 14px;
-  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
